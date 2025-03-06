@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Log2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body style="background-color:antiquewhite";>
+   <div class="ex1">
+     <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="CollectionsPage.html" target="_self">My Collection</a></li>
+        <li><a href="CurrentReadingPage.html" target="_self"> Currently Reading</a></li>
+      </ul>
+   </div> 
+   
+
+<!--img src="123.gif"-->
+    <!-- Search Bar -->
+     <div class="searchbox">
+    <label for="search-box"></label>
+    <input id="search-box" type="text" placeholder="Search for a Book">
+    <button id="search-btn">Search</button>
+     </div>
+    <!-- Input for Adding Books/Movies -->
+    <h2>Add a Book</h2>
+    <div class="Title">
+    <input id="title-input" type="text" placeholder="Enter Title"> 
+    <input id="author-input" type="text" placeholder="Enter Author">
+    <input id="genre-input" type="text" placeholder="Enter Genre"></div>
+    <div class="container">
+        <div class="star">
+            <a href="#" class="fa fa-star"></a>
+            <a href="#" class="fa fa-star"></a>
+            <a href="#" class="fa fa-star"></a>
+            <a href="#" class="fa fa-star"></a>
+            <a href="#" class="fa fa-star"></a>
+        </div>
+    </div> 
+    <br>
+    <button id="add-btn">Add</button>
+    <ul style="text-decoration: none;" id="log-list"></ul>
+    <script src="jscript.js"></script>
+</body>
+</html>
